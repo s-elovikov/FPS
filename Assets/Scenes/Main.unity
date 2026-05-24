@@ -242,6 +242,7 @@ GameObject:
   - component: {fileID: 635688650}
   - component: {fileID: 635688651}
   - component: {fileID: 635688652}
+  - component: {fileID: 635688653}
   m_Layer: 0
   m_Name: '[DI]'
   m_TagString: Untagged
@@ -278,6 +279,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rootContainers:
   - {fileID: 635688651}
+  - {fileID: 635688652}
 --- !u!114 &635688651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -295,6 +297,22 @@ MonoBehaviour:
   - {fileID: 920172894}
   _autoResolveGameObjects: []
 --- !u!114 &635688652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 635688648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14c22a2826735174897d17b87115e43d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _autoRegisterGameObjects: []
+  _autoResolveGameObjects: []
+  _settings:
+  - {fileID: 11400000, guid: 16868cd03ee527045b4d06a0651803cb, type: 2}
+--- !u!114 &635688653
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1225,8 +1243,8 @@ MonoBehaviour:
     <Assets>k__BackingField:
     - m_AssetGUID: d8402c473386ec441a43dbc39974d2cf
       m_SubObjectName: 
-      m_SubObjectGUID: 
       m_SubObjectType: 
+      m_SubObjectGUID: 
       m_EditorAssetChanged: 0
   _spawnPoint: {fileID: 1539731824}
 --- !u!1 &2114283753834967212

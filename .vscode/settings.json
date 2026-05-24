@@ -1,0 +1,18 @@
+{
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/Temp": true,
+        "**/Build": true,
+        "**/Obj": true,
+        "**/Logs": true
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/Temp": true,
+        "**/Obj": true
+    },
+    "search.useIgnoreFiles": false,
+    "search.followSymlinks": true,
+    "dotnet.defaultSolution": "FPS.slnx"
+}
